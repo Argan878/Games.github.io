@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-campatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da página</title>
+    <style>
+       * {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 5px ;
+    font-size: 20px;  
+}
+ 
+ body {
+     font-family: arial;
+     background: url("./img/Un.png");
+     background-repeat: no-repeat;
+     background-size: cover;    
+     
+ }
+
+ @media screen and (max-width: 700px){
+     Body{
+         background-size: 440px 850px;
+     }
+ }
+
+
+ul {
+  
+    list-style: none;
+    top: 50px;
+    position: absolute;
+    width: 100%;
+}
+
+img {
+    width: 40px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]:checked~nav{
+
+transform: translateX(350px);
+    
+}
+
+nav {
+    background-color: rgba(16, 16, 16,.5);
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+    }
+
+a:hover {
+    background-color: #2ad7ff;
+    color: black;
+}
+
+label {
+    position: absolute;
+    z-index: 1;
+}    
+
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+padding: 1rem;
+     width: 80%;
+     height: 80%;
+      justify-content: center;
+      align-itens: center;
+      background-color: ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    grid-gap: 5px;
+  margin: 5px;
+  
+    
+}
+
+footer a {
+margin: 50px;
+    margin: 40px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer p{
+    margin-top: 2px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    }
+
+.header{
+background-color: ;
+    text-align: center;
+    color: white;
+    height: 110px;
+  }
+        
+.grid{
+    display: grid;
+    place-items: center;
+    
+}
+
+div main{
+    width: 95%;
+    height: ;
+}
+
+
+
+main {
+     background-color: ;
+    color: white;
+    position: ;
+    top: 100px;
+}
+        
+@media screen and (max-width: 700px){
+    .header{
+      height: 150px;
+background-color: ;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 700px){
+    
+    main{
+     background-color: ;
+    color: white;
+}
+}
+        
+        
+    
+        
+        
+        
+    </style>
+</head>
+<body class="body">   
+    <input type="checkbox" id="chec">
+    <label for="chec">
+        <img src="./img/menu.png">
+    </label>
+    
+<nav>        
+        <ul>
+            
+         <li><a href="index.html">INÍCIO</a></li>   
+         <li><a href="">GAMES INDIES</a></li>     
+         <li><a href="">TUTORIAL</a></li>   
+         <li><a href="Contato.html">CONTATO</a></li>      
+          <li><a href="Sobre.html">SOBRE</a></li>      
+            
+        </ul>
+</nav> 
+      <div>
+          <header class="header">
+              <h1>GAMES INDIES</h1>
+              <P>site desenvolvido para a comunidade gamer</P>
+          </header>
+      </div>  
+      
+      <div class="grid">
+          <main class="main">
+               <section>
+        <h2>JOGOS ELETRÔNICO</h2>
+        <br>
+         <p>Os jogos electrónicos (português europeu) ou jogos eletrônicos (português brasileiro) possuem diversas variações e subespécies, a sua categorização pode variar de acordo com os aspectos a serem diferenciados.</p>
+         <br>
+         <p>Os jogos eletrônicos também incluem programas de computador, que não utilizam apenas o console videogame como suporte para funcionar.</p>
+         <br>
+         <p>As classificações são as mais diversas e não são mutuamente exclusivas ou coletivamente exaustivas, os jogos, portanto podem pertencer a mais de uma categoria sugerida. Algumas lojas de jogos como o Steam utilizam classificações diferentes que atendem as suas necessidades. A categorização a seguir distingue os jogos a partir de sua: Produção; Estilo; Jogabilidade.</p>
+     </section>
+     <br>
+     <section>
+         <h2>SOBRE O SITE</h2>
+         <br>
+         <p>Jogo eletrônico independente - Jogos independentes (ou indie do inglês independent) são jogos feitos por um pequeno grupo ou por apenas uma pessoa, podendo ser financiados pelos próprios produtores, ou um pequeno valor bancado por produtoras maiores ou por doações.</p>
+     </section>
+          </main>
+      </div>
+      
+         <div class="grid">    
+    <footer>  
+    <a href="https://instagram.com/williamcosta__m?igshid=ZDdkNTZiNTM=" target="_blank" rel="noopener norferrer">
+        <img src="./img/insta.png"></img>
+                <p>Instagram</p>
+    </a>
+    <a href="https://discord.gg/AGE26hSZ" target="_blank" rel="noopener norferrer">
+        <img src="./img/Dis.png"></img>
+                <p>Discord</p>
+    </a>
+    
+    </footer>
+    </div>
+      
+    
+</body>
+</html>

@@ -1,0 +1,201 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 5px ;
+    font-size: 20px;  
+}
+ 
+ body {
+     font-family: arial;
+     background: url("./img/Un.png");
+     background-repeat: no-repeat;
+     background-size: cover;    
+     
+ }
+
+ @media screen and (max-width: 700px){
+     Body{
+         background-size: 450px 850px;
+         backgroun-center: center;
+     }
+ }
+
+
+ul {
+  
+    list-style: none;
+    top: 50px;
+    position: absolute;
+    width: 100%;
+}
+
+img {
+    width: 40px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]:checked~nav{
+
+transform: translateX(350px);
+    
+}
+
+nav {
+    background-color: rgba(16, 16, 16,.5);
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+    }
+
+a:hover {
+    background-color: #2ad7ff;
+    color: black;
+}
+
+label {
+    position: absolute;
+    z-index: 1;
+}    
+
+
+.header{
+background-color: ;
+    text-align: center;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+.aluguel-section {
+ display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 5px;
+  margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    
+     
+    background-repeat: no-repeat;    
+        background-size: cover;
+        background-position: center center;        
+  width: 70%;
+  height: 300px;
+  padding: 1rem;                
+   background-color: ;
+  justify-content: center;
+  align-items: center;
+}
+
+.aluguel-section p{
+color: white;
+    
+}
+
+
+.aluguel-section img {
+     width: 40px;
+    height: 40px;
+}
+
+.grid{
+    
+    display: grid;
+    place-items: center;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+padding: 1rem;
+     width: 80%;
+     height: 80%;
+      justify-content: center;
+      align-itens: center;
+      background-color: ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    grid-gap: 5px;
+  margin: 5px;
+    
+}
+
+footer a {
+margin: 50px;
+    margin: 40px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer p{
+    margin-top: 2px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    }
+    
+
+
+@media screen and (max-width: 700px){
+
+.aluguel-section {
+ display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 35px;
+  margin: 50px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    
+     
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+  width: 70%;
+  height: 300px;
+  padding: rem;
+  background-color: ;
+  justify-content: center;
+  align-items: center;
+}
+
+.aluguel-section p{
+color: white;
+     font-size: 16px;
+}
+
+
+.aluguel-section img {
+     width: 40px;
+    height: 40px;
+}
+}
+
+@media screen and (max-width: 700px){
+    .header{
+      height: 150px;
+background-color: ;
+    text-align: center;
+    color: white;
+}
